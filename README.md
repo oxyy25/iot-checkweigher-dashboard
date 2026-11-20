@@ -151,10 +151,10 @@ DB_USER=root
 DB_PASSWORD=753951aziz
 DB_NAME=checkweigher
 
-MQTT_BROKER=ssl://YOUR_CLUSTER.s1.eu.hivemq.cloud:8883
+MQTT_BROKER=tcp://broker.hivemq.com:1883
 MQTT_CLIENT_ID=checkweigher-server
-MQTT_USERNAME=your_username
-MQTT_PASSWORD=your_password
+MQTT_USERNAME=
+MQTT_PASSWORD=
 ```
 
 ### 3. Migrasi & Seeder Database

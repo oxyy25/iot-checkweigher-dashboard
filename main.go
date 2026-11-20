@@ -39,7 +39,7 @@ func main() {
 	// 1. Jalankan WebSocket Hub di background
 	go services.Hub.Run()
 
-	// 2. Hubungkan ke Broker HiveMQ Cloud
+	// 2. Hubungkan ke Broker HiveMQ (Public / Cloud)
 	mqttClient, _ := config.ConnectMQTT()
 	services.InitMQTT(mqttClient)
 
